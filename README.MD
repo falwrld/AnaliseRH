@@ -32,3 +32,23 @@ git clone https://github.com/falwrld/AnaliseRH.git
 cd AnaliseRH
 pip install -r requirements.txt
 streamlit run app.py
+
+----------
+
+## 📚 Tecnologias utilizadas
+Python
+
+Streamlit
+
+Pandas
+
+Matplotlib
+
+OpenPyXL
+
+## 🧠 Sobre mim
+🎓 Estudante de Análise e Desenvolvimento de Sistemas
+📊 Explorando Python, dados e interfaces interativas
+🎮 Curioso, autodidata e apaixonado por aprender
+
+Se curtiu, dá uma ⭐️ no repositório e me chama pra trocar ideia!
