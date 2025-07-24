@@ -49,7 +49,7 @@ if arquivo:
         contar_genero = df['Genero'].value_counts()
         #fig = figura (o papel todo)
         #ax = eixo (ou quadro) desenha os gráficos
-        fig1, ax1 = plt.subplots()
+        fig1, ax1 = plt.subplots(figsize=(6, 4))  # Reduzido
         #Criar as barras
         Barras = ax1.bar(contar_genero.index , contar_genero.values, color=['skyblue', 'pink'])
         ax1.set_title("Funcionarios por Gênero")
@@ -102,7 +102,7 @@ if arquivo:
         contratacoes_ano = df["Ano Contratacao"].value_counts().sort_index()
         demissoes_ano = df["Ano Demissao"].value_counts().sort_index()
 
-        fig6, ax6 = plt.subplots()
+        fig6, ax6 = plt.subplots(figsize=(8, 4))  # Um pouco mais largo, mas menos alto
         contratacoes_ano.plot(kind="line", marker="o", label="Contratações", ax=ax6)
         demissoes_ano.plot(kind="line", marker="s", label="Demissões", ax=ax6)
         ax6.set_ylabel("Quantidade")    
