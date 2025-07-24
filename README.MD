@@ -32,7 +32,7 @@ git clone https://github.com/falwrld/AnaliseRH.git
 cd AnaliseRH
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 ---
 
 ## 📚 Tecnologias utilizadas
