@@ -59,11 +59,14 @@ if arquivo:
     with aba2:
         col5, col6 = st.columns(2)
         with col5:
-            salaria_area = df.gtarea.plot(kind="barh", color="Darkred", ax=ax2)
-            ax2.bar_label(ax2.containers[0], padding=-75, fmt="R$ %.2f" )
+            fig2, ax2 = plt.subplots()
+            salario_area = df.groupby("Área")["Salario"].mean().sort_values()
+            salario_area.plot(kind="barh", color="Darkred", ax=ax2)
+            ax2.bar_label(ax2.containers[0], padding=-75, fmt="R$ %.2f")
             ax2.set_title("Salário Médio por área")
             ax2.set_ylabel("")
             st.pyplot(fig2)
+
         with col6:
             horas_area = df.groupby("Área")["Horas Extras"].sum().sort_values()
             fig3, ax3 = plt.subplots()
