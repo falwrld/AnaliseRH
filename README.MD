@@ -34,7 +34,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 ---
+## Base no repositorio
+ultilize a base no repositorio para testar a funcionalidade!!
 
+---
 ## 📚 Tecnologias utilizadas
 Python
 
