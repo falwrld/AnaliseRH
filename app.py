@@ -44,7 +44,7 @@ if arquivo:
     col4.metric("Salario", f"R${folha_salarial:,.2f}")
     
     #Criar abas do gráficos
-    aba1, aba2, aba3, aba4 = st.tabs(["Visão Geral", "Gráficos por Área", "Contratações vs demissões", "Tabala de dados"])
+    aba1, aba2, aba3, aba4 = st.tabs(["Visão Geral", "Gráficos por Área", "Contratações vs demissões", "Tabela de dados"])
     with aba1:
         contar_genero = df['Genero'].value_counts()
         #fig = figura (o papel todo)
