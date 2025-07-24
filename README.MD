@@ -33,7 +33,7 @@ cd AnaliseRH
 pip install -r requirements.txt
 streamlit run app.py
 
-----------
+---
 
 ## 📚 Tecnologias utilizadas
 Python
@@ -45,6 +45,8 @@ Pandas
 Matplotlib
 
 OpenPyXL
+
+---
 
 ## 🧠 Sobre mim
 🎓 Estudante de Análise e Desenvolvimento de Sistemas
