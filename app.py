@@ -54,7 +54,7 @@ if arquivo:
         Barras = ax1.bar(contar_genero.index , contar_genero.values, color=['skyblue', 'pink'])
         ax1.set_title("Funcionarios por Gênero")
         ax1.bar_label(Barras, padding=-15)
-        st.pyplot(fig1)
+        st.pyplot(fig1, use_container_width=False)
 
     with aba2:
         col5, col6 = st.columns(2)
